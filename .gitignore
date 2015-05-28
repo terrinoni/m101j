@@ -96,3 +96,6 @@ $RECYCLE.BIN/
 
 ## Project-specific ignore
 logs/
+
+## Project specific ignore
+week_1_introduction/Examples Week 1/target/
