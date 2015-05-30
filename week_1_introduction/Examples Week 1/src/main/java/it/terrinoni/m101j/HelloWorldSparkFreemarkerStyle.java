@@ -39,7 +39,7 @@ public class HelloWorldSparkFreemarkerStyle {
                     System.out.println(writer);
                 } catch(IOException | TemplateException ex) {
                     Spark.halt(500);
-                    ex.printStackTrace();
+                    return null;
                 }
                 return writer;
             }
