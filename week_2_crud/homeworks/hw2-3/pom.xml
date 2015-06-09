@@ -17,4 +17,5 @@
             <version>3.0.1</version>
         </dependency>
     </dependencies>
+    <name>MongoDB University - Homework 2.3</name>
 </project>
