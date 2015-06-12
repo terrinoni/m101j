@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package it.terrinoni.hw2.utils;
+package it.terrinoni.hw3.utils;
 
 import java.io.StringWriter;
 import org.bson.Document;

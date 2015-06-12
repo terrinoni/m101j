@@ -12,9 +12,7 @@ import com.mongodb.client.MongoDatabase;
 import static com.mongodb.client.model.Filters.*;
 import static com.mongodb.client.model.Sorts.ascending;
 import it.terrinoni.hw2.utils.Helpers;
-import java.util.ArrayList;
 import static java.util.Arrays.asList;
-import java.util.List;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 
