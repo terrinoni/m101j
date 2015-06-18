@@ -4,7 +4,6 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import static com.mongodb.client.model.Filters.eq;
 import static com.mongodb.client.model.Sorts.descending;
-import com.mongodb.client.model.UpdateOptions;
 import java.util.ArrayList;
 import java.util.Date;
 import org.bson.Document;

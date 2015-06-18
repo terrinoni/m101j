@@ -17,10 +17,10 @@
 
         <dependency>
           <groupId>com.sparkjava</groupId>
-	  <artifactId>spark-core</artifactId>
-	  <version>1.1.1</version>
+          <artifactId>spark-core</artifactId>
+          <version>1.1.1</version>
         </dependency>
-	
+    
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
