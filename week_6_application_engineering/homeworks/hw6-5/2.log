@@ -1,0 +1,158 @@
+2015-07-06T12:17:22.632+0200 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-07-06T12:17:22.651+0200 I JOURNAL  [initandlisten] journal dir=F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\journal
+2015-07-06T12:17:22.652+0200 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-06T12:17:22.960+0200 I JOURNAL  [initandlisten] preallocateIsFaster=true 4.6
+2015-07-06T12:17:22.992+0200 I JOURNAL  [durability] Durability thread started
+2015-07-06T12:17:22.993+0200 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-06T12:17:23.074+0200 I CONTROL  [initandlisten] MongoDB starting : pid=7040 port=27018 dbpath=F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2 64-bit host=buchs
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] allocator: system
+2015-07-06T12:17:23.075+0200 I CONTROL  [initandlisten] options: { net: { port: 27018 }, replication: { oplogSizeMB: 64, replSet: "m101" }, storage: { dbPath: "F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2", mmapv1: { smallFiles: true } }, systemLog: { destination: "file", path: "F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\2.log" } }
+2015-07-06T12:17:23.076+0200 I INDEX    [initandlisten] allocating new ns file F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\local.ns, filling with zeroes...
+2015-07-06T12:17:23.315+0200 I STORAGE  [FileAllocator] allocating new datafile F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\local.0, filling with zeroes...
+2015-07-06T12:17:23.315+0200 I STORAGE  [FileAllocator] creating directory F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\_tmp
+2015-07-06T12:17:23.360+0200 I STORAGE  [FileAllocator] done allocating datafile F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\local.0, size: 16MB,  took 0.044 secs
+2015-07-06T12:17:23.367+0200 I REPL     [initandlisten] Did not find local replica set configuration document at startup;  NoMatchingDocument Did not find replica set configuration document in local.system.replset
+2015-07-06T12:17:23.367+0200 I NETWORK  [initandlisten] waiting for connections on port 27018
+2015-07-06T12:18:58.397+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54425 #1 (1 connection now open)
+2015-07-06T12:18:58.411+0200 I NETWORK  [conn1] end connection 127.0.0.1:54425 (0 connections now open)
+2015-07-06T12:18:58.425+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54427 #2 (1 connection now open)
+2015-07-06T12:19:00.444+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54433 #3 (2 connections now open)
+2015-07-06T12:19:00.449+0200 I NETWORK  [conn3] end connection 127.0.0.1:54433 (1 connection now open)
+2015-07-06T12:19:00.495+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54435 #4 (2 connections now open)
+2015-07-06T12:19:00.497+0200 I REPL     [WriteReplSetConfig] Starting replication applier threads
+2015-07-06T12:19:00.498+0200 I REPL     [rsSync] replSet warning did not receive a valid config yet, sleeping 5 seconds 
+2015-07-06T12:19:00.498+0200 I REPL     [ReplicationExecutor] New replica set config in use: { _id: "m101", version: 1, members: [ { _id: 0, host: "localhost:27017", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 }, { _id: 1, host: "localhost:27018", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 }, { _id: 2, host: "localhost:27019", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 } ], settings: { chainingAllowed: true, heartbeatTimeoutSecs: 10, getLastErrorModes: {}, getLastErrorDefaults: { w: 1, wtimeout: 0 } } }
+2015-07-06T12:19:00.498+0200 I REPL     [ReplicationExecutor] This node is localhost:27018 in the config
+2015-07-06T12:19:00.498+0200 I REPL     [ReplicationExecutor] transition to STARTUP2
+2015-07-06T12:19:00.499+0200 I REPL     [ReplicationExecutor] Member localhost:27017 is now in state STARTUP2
+2015-07-06T12:19:00.499+0200 I REPL     [ReplicationExecutor] Member localhost:27019 is now in state STARTUP2
+2015-07-06T12:19:02.499+0200 I REPL     [ReplicationExecutor] Member localhost:27017 is now in state SECONDARY
+2015-07-06T12:19:04.477+0200 I REPL     [ReplicationExecutor] replSetElect voting yea for localhost:27017 (0)
+2015-07-06T12:19:04.499+0200 I REPL     [ReplicationExecutor] Member localhost:27017 is now in state PRIMARY
+2015-07-06T12:19:05.498+0200 I REPL     [rsSync] ******
+2015-07-06T12:19:05.498+0200 I REPL     [rsSync] creating replication oplog of size: 64MB...
+2015-07-06T12:19:05.498+0200 I STORAGE  [FileAllocator] allocating new datafile F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\local.1, filling with zeroes...
+2015-07-06T12:19:05.907+0200 I STORAGE  [FileAllocator] done allocating datafile F:\Projects\MongoDB University\m101j\week_6_application_engineering\homeworks\hw6-5\data\rs2\local.1, size: 128MB,  took 0.36 secs
+2015-07-06T12:19:09.759+0200 I REPL     [rsSync] ******
+2015-07-06T12:19:09.759+0200 I REPL     [rsSync] initial sync pending
+2015-07-06T12:19:09.794+0200 I REPL     [ReplicationExecutor] syncing from: localhost:27017
+2015-07-06T12:19:09.802+0200 I REPL     [rsSync] initial sync drop all databases
+2015-07-06T12:19:09.802+0200 I STORAGE  [rsSync] dropAllDatabasesExceptLocal 1
+2015-07-06T12:19:09.802+0200 I REPL     [rsSync] initial sync clone all databases
+2015-07-06T12:19:09.809+0200 I REPL     [rsSync] initial sync data copy, starting syncup
+2015-07-06T12:19:09.809+0200 I REPL     [rsSync] oplog sync 1 of 3
+2015-07-06T12:19:09.809+0200 I REPL     [rsSync] oplog sync 2 of 3
+2015-07-06T12:19:09.809+0200 I REPL     [rsSync] initial sync building indexes
+2015-07-06T12:19:09.809+0200 I REPL     [rsSync] oplog sync 3 of 3
+2015-07-06T12:19:09.811+0200 I REPL     [rsSync] initial sync finishing up
+2015-07-06T12:19:09.811+0200 I REPL     [rsSync] replSet set minValid=559a5614:1
+2015-07-06T12:19:09.811+0200 I REPL     [rsSync] initial sync done
+2015-07-06T12:19:09.816+0200 I REPL     [ReplicationExecutor] transition to RECOVERING
+2015-07-06T12:19:09.817+0200 I REPL     [ReplicationExecutor] transition to SECONDARY
+2015-07-06T12:19:10.499+0200 I REPL     [ReplicationExecutor] could not find member to sync from
+2015-07-06T12:19:10.499+0200 I REPL     [ReplicationExecutor] Member localhost:27019 is now in state SECONDARY
+2015-07-06T12:19:28.477+0200 I NETWORK  [conn2] end connection 127.0.0.1:54427 (1 connection now open)
+2015-07-06T12:19:28.477+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54440 #5 (2 connections now open)
+2015-07-06T12:19:30.495+0200 I NETWORK  [conn4] end connection 127.0.0.1:54435 (1 connection now open)
+2015-07-06T12:19:30.495+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54443 #6 (2 connections now open)
+2015-07-06T12:19:58.479+0200 I NETWORK  [conn5] end connection 127.0.0.1:54440 (1 connection now open)
+2015-07-06T12:19:58.480+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54446 #7 (2 connections now open)
+2015-07-06T12:20:00.496+0200 I NETWORK  [conn6] end connection 127.0.0.1:54443 (1 connection now open)
+2015-07-06T12:20:00.496+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54450 #8 (2 connections now open)
+2015-07-06T12:20:28.482+0200 I NETWORK  [conn7] end connection 127.0.0.1:54446 (1 connection now open)
+2015-07-06T12:20:28.483+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54455 #9 (2 connections now open)
+2015-07-06T12:20:30.499+0200 I NETWORK  [conn8] end connection 127.0.0.1:54450 (1 connection now open)
+2015-07-06T12:20:30.499+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54458 #10 (2 connections now open)
+2015-07-06T12:20:58.485+0200 I NETWORK  [conn9] end connection 127.0.0.1:54455 (1 connection now open)
+2015-07-06T12:20:58.486+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54463 #11 (2 connections now open)
+2015-07-06T12:21:00.500+0200 I NETWORK  [conn10] end connection 127.0.0.1:54458 (1 connection now open)
+2015-07-06T12:21:00.500+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54467 #12 (2 connections now open)
+2015-07-06T12:21:28.488+0200 I NETWORK  [conn11] end connection 127.0.0.1:54463 (1 connection now open)
+2015-07-06T12:21:28.489+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54471 #13 (2 connections now open)
+2015-07-06T12:21:30.501+0200 I NETWORK  [conn12] end connection 127.0.0.1:54467 (1 connection now open)
+2015-07-06T12:21:30.501+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54474 #14 (2 connections now open)
+2015-07-06T12:21:58.490+0200 I NETWORK  [conn13] end connection 127.0.0.1:54471 (1 connection now open)
+2015-07-06T12:21:58.491+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54484 #15 (2 connections now open)
+2015-07-06T12:22:00.504+0200 I NETWORK  [conn14] end connection 127.0.0.1:54474 (1 connection now open)
+2015-07-06T12:22:00.504+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54488 #16 (2 connections now open)
+2015-07-06T12:22:28.493+0200 I NETWORK  [conn15] end connection 127.0.0.1:54484 (1 connection now open)
+2015-07-06T12:22:28.494+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54490 #17 (2 connections now open)
+2015-07-06T12:22:30.505+0200 I NETWORK  [conn16] end connection 127.0.0.1:54488 (1 connection now open)
+2015-07-06T12:22:30.505+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54494 #18 (2 connections now open)
+2015-07-06T12:22:58.497+0200 I NETWORK  [conn17] end connection 127.0.0.1:54490 (1 connection now open)
+2015-07-06T12:22:58.498+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54498 #19 (2 connections now open)
+2015-07-06T12:23:00.506+0200 I NETWORK  [conn18] end connection 127.0.0.1:54494 (1 connection now open)
+2015-07-06T12:23:00.506+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54502 #20 (2 connections now open)
+2015-07-06T12:23:28.499+0200 I NETWORK  [conn19] end connection 127.0.0.1:54498 (1 connection now open)
+2015-07-06T12:23:28.500+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54509 #21 (2 connections now open)
+2015-07-06T12:23:30.507+0200 I NETWORK  [conn20] end connection 127.0.0.1:54502 (1 connection now open)
+2015-07-06T12:23:30.507+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54512 #22 (2 connections now open)
+2015-07-06T12:23:58.502+0200 I NETWORK  [conn21] end connection 127.0.0.1:54509 (1 connection now open)
+2015-07-06T12:23:58.503+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54516 #23 (2 connections now open)
+2015-07-06T12:24:00.508+0200 I NETWORK  [conn22] end connection 127.0.0.1:54512 (1 connection now open)
+2015-07-06T12:24:00.508+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54519 #24 (2 connections now open)
+2015-07-06T12:24:28.505+0200 I NETWORK  [conn23] end connection 127.0.0.1:54516 (1 connection now open)
+2015-07-06T12:24:28.506+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54523 #25 (2 connections now open)
+2015-07-06T12:24:30.509+0200 I NETWORK  [conn24] end connection 127.0.0.1:54519 (1 connection now open)
+2015-07-06T12:24:30.510+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54526 #26 (2 connections now open)
+2015-07-06T12:24:32.266+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54531 #27 (3 connections now open)
+2015-07-06T12:24:32.305+0200 I NETWORK  [conn27] end connection 127.0.0.1:54531 (2 connections now open)
+2015-07-06T12:24:44.104+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54535 #28 (3 connections now open)
+2015-07-06T12:24:44.115+0200 I NETWORK  [conn28] end connection 127.0.0.1:54535 (2 connections now open)
+2015-07-06T12:24:58.508+0200 I NETWORK  [conn25] end connection 127.0.0.1:54523 (1 connection now open)
+2015-07-06T12:24:58.509+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54538 #29 (2 connections now open)
+2015-07-06T12:25:00.510+0200 I NETWORK  [conn26] end connection 127.0.0.1:54526 (1 connection now open)
+2015-07-06T12:25:00.511+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54544 #30 (2 connections now open)
+2015-07-06T12:25:28.513+0200 I NETWORK  [conn29] end connection 127.0.0.1:54538 (1 connection now open)
+2015-07-06T12:25:28.514+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54559 #31 (2 connections now open)
+2015-07-06T12:25:30.513+0200 I NETWORK  [conn30] end connection 127.0.0.1:54544 (1 connection now open)
+2015-07-06T12:25:30.513+0200 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54563 #32 (2 connections now open)
+2015-07-06T12:25:35.563+0200 I NETWORK  [conn31] end connection 127.0.0.1:54559 (1 connection now open)
+2015-07-06T12:25:36.522+0200 I NETWORK  [ReplExecNetThread-3] DBClientCursor::init call() failed
+2015-07-06T12:25:36.559+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27017; Location10276 DBClientBase::findN: transport error: localhost:27017 ns: admin.$cmd query: { replSetHeartbeat: "m101", pv: 1, v: 1, from: "localhost:27018", fromId: 1, checkEmpty: false }
+2015-07-06T12:25:36.559+0200 I REPL     [ReplicationExecutor] Standing for election
+2015-07-06T12:25:36.559+0200 I REPL     [ReplicationExecutor] replSet possible election tie; sleeping 510ms until 2015-07-06T12:25:37.069+0200
+2015-07-06T12:25:36.758+0200 I REPL     [ReplicationExecutor] replSetElect voting yea for localhost:27019 (2)
+2015-07-06T12:25:37.624+0200 W NETWORK  [ReplExecNetThread-1] Failed to connect to 127.0.0.1:27017, reason: errno:10061 Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+2015-07-06T12:25:37.624+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27017; Location18915 Failed attempt to connect to localhost:27017; couldn't connect to server localhost:27017 (127.0.0.1), connection attempt failed
+2015-07-06T12:25:38.522+0200 I REPL     [ReplicationExecutor] Member localhost:27019 is now in state PRIMARY
+2015-07-06T12:25:38.625+0200 W NETWORK  [ReplExecNetThread-3] Failed to connect to 127.0.0.1:27017, reason: errno:10061 Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+2015-07-06T12:25:38.625+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27017; Location18915 Failed attempt to connect to localhost:27017; couldn't connect to server localhost:27017 (127.0.0.1), connection attempt failed
+2015-07-06T12:25:40.522+0200 I NETWORK  [ReplExecNetThread-1] DBClientCursor::init call() failed
+2015-07-06T12:25:40.522+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27019; Location10276 DBClientBase::findN: transport error: localhost:27019 ns: admin.$cmd query: { replSetHeartbeat: "m101", pv: 1, v: 1, from: "localhost:27018", fromId: 1, checkEmpty: false }
+2015-07-06T12:25:40.544+0200 I NETWORK  [ReplExecNetThread-1] Socket recv() errno:10054 Connessione in corso interrotta forzatamente dall'host remoto. 127.0.0.1:27019
+2015-07-06T12:25:40.545+0200 I NETWORK  [ReplExecNetThread-1] SocketException: remote: 127.0.0.1:27019 error: 9001 socket exception [RECV_ERROR] server [127.0.0.1:27019] 
+2015-07-06T12:25:40.545+0200 I NETWORK  [ReplExecNetThread-1] DBClientCursor::init call() failed
+2015-07-06T12:25:40.545+0200 I NETWORK  [conn32] end connection 127.0.0.1:54563 (0 connections now open)
+2015-07-06T12:25:40.545+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27019; Location10276 DBClientBase::findN: transport error: localhost:27019 ns: admin.$cmd query: { replSetHeartbeat: "m101", pv: 1, v: 1, from: "localhost:27018", fromId: 1, checkEmpty: false }
+2015-07-06T12:25:41.545+0200 W NETWORK  [ReplExecNetThread-3] Failed to connect to 127.0.0.1:27019, reason: errno:10061 Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+2015-07-06T12:25:41.545+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27019; Location18915 Failed attempt to connect to localhost:27019; couldn't connect to server localhost:27019 (127.0.0.1), connection attempt failed
+2015-07-06T12:25:41.625+0200 W NETWORK  [ReplExecNetThread-1] Failed to connect to 127.0.0.1:27017, reason: errno:10061 Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+2015-07-06T12:25:41.625+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27017; Location18915 Failed attempt to connect to localhost:27017; couldn't connect to server localhost:27017 (127.0.0.1), connection attempt failed
+2015-07-06T12:25:42.626+0200 W NETWORK  [ReplExecNetThread-3] Failed to connect to 127.0.0.1:27017, reason: errno:10061 Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+2015-07-06T12:25:42.626+0200 I REPL     [ReplicationExecutor] Error in heartbeat request to localhost:27017; Location18915 Failed attempt to connect to localhost:27017; couldn't connect to server localhost:27017 (127.0.0.1), connection attempt failed
+2015-07-06T12:25:43.075+0200 I CONTROL  Ctrl-C signal
+2015-07-06T12:25:43.075+0200 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-07-06T12:25:43.627+0200 W NETWORK  [ReplExecNetThread-1] Failed to connect to 127.0.0.1:27017, reason: errno:10061 Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+2015-07-06T12:25:43.627+0200 I REPL     [consoleTerminate] Stopping replication applier threads
+2015-07-06T12:25:43.883+0200 I CONTROL  [consoleTerminate] now exiting
+2015-07-06T12:25:43.883+0200 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-07-06T12:25:43.883+0200 I NETWORK  [consoleTerminate] closing listening socket: 340
+2015-07-06T12:25:43.883+0200 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-07-06T12:25:43.883+0200 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-07-06T12:25:43.883+0200 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-07-06T12:25:43.883+0200 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-07-06T12:25:43.887+0200 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-07-06T12:25:43.930+0200 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-07-06T12:25:43.931+0200 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-07-06T12:25:43.985+0200 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-06T12:25:43.985+0200 I JOURNAL  [durability] Durability thread stopped
+2015-07-06T12:25:43.985+0200 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-07-06T12:25:43.987+0200 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-07-06T12:25:43.987+0200 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-07-06T12:25:43.988+0200 I CONTROL  [consoleTerminate] dbexit:  rc: 12

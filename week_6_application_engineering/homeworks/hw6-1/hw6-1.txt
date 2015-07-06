@@ -1,0 +1,5 @@
+Which of the following statements are true about replication in MongoDB?
+x The minimum sentible number of voting nodes to a replica set is three.
+_ MongoDB replication is synchronous.
+_ By default, using the MongoClient connecion class, w = 1 and j = 1.
+x The oplog utilizes a capped collection.
