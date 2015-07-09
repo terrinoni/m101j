@@ -2,7 +2,7 @@ This is a Hands On problem. In this problem, the database will begin in an initi
 
 In this problem you will update a document in the *messages* collection to illustrate your mastery of updating documents from the shell. In fact, we've created a collection with a very similar schema to the Enron dataset, but filled instead with randomly generated data.
 
-Please add the email address "mrpotatohead@10gen.com" to the list of addresses in the "headers.To" array for the document with "headers.Message-ID" of "<8147308.1075851042335.JavaMail.evans@thyme>"
+Please add the email address "mrpotatohead@10gen.com" to the list of addresses in the "headers.To" array for the document with "headers.Message-ID" of "\<8147308.1075851042335.JavaMail.evans@thyme>"
 
 This is a fully functional web shell, so please **press enter** for your query to get passed to the server, just like you would for the command line shell.
 
