@@ -71,7 +71,7 @@ Which of the indexes could be used by MongoDB to assist in answering the query? 
 
 1. c_1
 2. a_1_c_1
-3. _id_
+3. \_id_
 4. a_1_b_1
 5. a_1_b_1_c_-1
 
