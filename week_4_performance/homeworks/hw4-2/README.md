@@ -1,4 +1,7 @@
-db.tweets.explain("executionStats").find({"user.followers_count":{$gt:1000}}).limit(10).skip(5000).sort( { created_at : 1 } ) -->
+Suppose you have a collection called *tweets* whose documents contain information about the *created_at* time of the tweet and the user's *followers_count* at the time they issued the tweet. What can you infer from the following *explain* output?
+
+```javascript
+db.tweets.explain("executionStats").find({"user.followers_count":{$gt:1000}}).limit(10).skip(5000).sort( { created_at : 1 } )
 {
     "queryPlanner" : {
         "plannerVersion" : 1,
@@ -133,12 +136,12 @@ db.tweets.explain("executionStats").find({"user.followers_count":{$gt:1000}}).li
     },
     "ok" : 1
 }
+```
 
+1. The query uses an index to determine the order in which to return result documents.
+2. The query examines 251120 documents.
+3. The query uses an index to determine which documents match.
+4. The query is a covered query.
+5. The query returns 251120 documents.
 
-
-Possible solutions:
-1) The query uses an index to determine the order in which to return result documents.
-2) The query examines 251120 documents.
-3) The query uses an index to determine which documents match.
-4) The query is a covered query.
-5) The query returns 251120 documents.
+Answers: 1, 2
