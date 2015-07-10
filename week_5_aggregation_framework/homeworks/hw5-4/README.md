@@ -15,9 +15,9 @@ The project operator can extract the first digit from any field. For example, to
 ```javascript
 db.zips.aggregate([
     {$project: 
-     {
-	first_char: {$substr : ["$city",0,1]},
-     }	 
+     	{
+			first_char: {$substr : ["$city",0,1]},
+     	}	 
    }
 ])
 ```
